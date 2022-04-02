@@ -27,6 +27,45 @@ body {
 .fs-14{
     font-size: 2rem;
 }
+.bg-counter-double{
+    font-size: 7px;
+}
+.bg-counter-triple{
+    font-size: 5px;
+}
+.bg-counter{
+    background-image: linear-gradient(to right, #ff00a2ed , #f2ff00ba);
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+}
+.rad-5{
+    border-radius: 50px;
+}
+.indicator-bar{
+    background-color: blue;
+    width: 20%;
+    position: absolute;
+    height: 28px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.rounded-indicator{
+    color: black;
+    border: solid 2px blue;
+    padding: 9px;
+    z-index: 2;
+    margin-left: 15%;
+    background-color: white;
+}
+.rounded-indicator-end{
+    color: white;
+    border: solid 2px white;
+    background-color: blue;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+}
 .bg-gray-white{
     background-color: #ffffff54;
     border-radius: 25px;
