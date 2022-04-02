@@ -1,0 +1,109 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(../assets/ProximaNovaFont.otf);
+}
+
+body {
+    font-family: ProximaNova;
+    margin:0px;
+    background-image: url(../assets/bgsec2.png);
+}
+
+.section1 {
+    background-image: url(../assets/background.png);
+    display: block;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+.text1 {
+    background-color: #f8ab2d;
+    display: block;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+.section2 {
+    background-image: url(../assets/bgsec2.png);
+    display: block;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+.text2 {
+    background-color: #f8ab2d;
+    display: block;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+.section3 {
+    background-image: url(../assets/bgsec3.png);
+    display: block;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+.text3 {
+    background-color: #f8ab2d;
+    display: block;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+.section4 {
+    background-image: url(../assets/bgsec4.png);
+    display: block;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.action-info:hover{
+    cursor:pointer;
+}
+.mt-5rm{
+    margin-top:5rem;
+}
+.mt-2rm{
+    margin-top:2rem;
+}
+.mt-1rm{
+    margin-top:1rem;
+}
+.mb-5rm{
+    margin-bottom:5rem;
+}
+.mb-2rm{
+    margin-bottom:2rem;
+}
+
+
+
+ /* @media screen and (max-width: 250px) {
+
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .text1,
+    .text2,
+    .text3,
+    img {
+        width: 100%;
+        height: auto;
+    }
+}  */
