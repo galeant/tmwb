@@ -5,44 +5,44 @@
 
 body {
     font-family: ProximaNova;
-    margin:0px;
+    margin: 0px;
     background-image: url(../assets/bgsec2.png);
 }
-.font-blue{
-    color:blue;
+.font-blue {
+    color: blue;
 }
-.font-white{
-    color:#ffff;
+.font-white {
+    color: #ffff;
 }
-.footer-separator{
-    background-color:blue;
-    height:5px;
+.footer-separator {
+    background-color: blue;
+    height: 5px;
 }
-.bg-black{
+.bg-black {
     background-color: black;
 }
-.fs-12{
+.fs-12 {
     font-size: 20px;
 }
-.fs-14{
+.fs-14 {
     font-size: 2rem;
 }
-.bg-counter-double{
+.bg-counter-double {
     font-size: 7px;
 }
-.bg-counter-triple{
+.bg-counter-triple {
     font-size: 5px;
 }
-.bg-counter{
-    background-image: linear-gradient(to right, #ff00a2ed , #f2ff00ba);
+.bg-counter {
+    background-image: linear-gradient(to right, #ff00a2ed, #f2ff00ba);
     border-radius: 10px;
     font-size: 10px;
     color: white;
 }
-.rad-5{
+.rad-5 {
     border-radius: 50px;
 }
-.indicator-bar{
+.indicator-bar {
     background-color: blue;
     width: 20%;
     position: absolute;
@@ -50,7 +50,7 @@ body {
     border-top-left-radius: 13px;
     border-bottom-left-radius: 13px;
 }
-.rounded-indicator{
+.rounded-indicator {
     color: black;
     border: solid 2px blue;
     padding: 9px;
@@ -58,7 +58,7 @@ body {
     margin-left: 15%;
     background-color: white;
 }
-.rounded-indicator-end{
+.rounded-indicator-end {
     color: white;
     border: solid 2px white;
     background-color: blue;
@@ -66,14 +66,14 @@ body {
     position: absolute;
     right: 0;
 }
-.bg-gray-white{
+.bg-gray-white {
     background-color: #ffffff54;
     border-radius: 25px;
 }
-.mx-width-40{
+.mx-width-40 {
     max-width: 40% !important;
 }
-.text-section{
+.text-section {
     background-color: orange;
     color: white;
     font-size: 1.3rem;
@@ -109,13 +109,69 @@ body {
     width: 100%;
 }
 
-.btn-width{
-    width:60%;
+.btn-width {
+    width: 60%;
 }
-.res-max-width{
+.res-max-width {
     max-width: 65%;
 }
+.main{
+    z-index: 9999999;
+}
+.blur{
+    filter:brightness(0.5);
+}
+.left1{
+    left: 40%;
+    z-index: 1;
+    width: 28%;
+}
+.left2{
+    left: 43%;
+    z-index: 0;
+    width: 27%;
+}
+.right1{
+    right: 40%;
+    z-index: 0;
+    filter: brightness(0.5);
+    width: 28%;
+}
 
+.carousel3 {
+	padding: 0 10vw;
+    max-width: 70%;
+}
+
+.carousel5 {
+	padding: 0;
+    max-width: 50%;
+}
+
+/* .carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+} */
+
+/* .carousel-control-prev, .carousel-control-next {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 50%;
+	background: none;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 68px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+} */
 
 @media only screen and (max-width: 576px) {
     .res-mobile {
@@ -124,16 +180,22 @@ body {
     .res-mobile-35 {
         width: 35%;
     }
-    .res-max-width{
+    .res-max-width {
         max-width: 100%;
     }
-    .fs-14{
+    .fs-14 {
         font-size: 1.5rem;
     }
-    .fs-12{
+    .fs-12 {
         font-size: 7px;
     }
-    
+    .carousel3{
+        max-width: 95%;
+    }
+    .carousel5 {
+        padding: 0;
+        max-width: 95%;
+    }
 }
 
 .section2 {
@@ -191,35 +253,256 @@ body {
     margin: auto;
     text-align: center;
 }
-.w-100{
+.w-100 {
     width: 100%;
 }
-.w-50{
+.w-50 {
     width: 50%;
 }
-.action-info:hover{
-    cursor:pointer;
+.action-info:hover {
+    cursor: pointer;
 }
-.mt-5rm{
-    margin-top:5rem;
+.mt-5rm {
+    margin-top: 5rem;
 }
-.mt-2rm{
-    margin-top:2rem;
+.mt-2rm {
+    margin-top: 2rem;
 }
-.mt-1rm{
-    margin-top:1rem;
+.mt-1rm {
+    margin-top: 1rem;
 }
-.mb-5rm{
-    margin-bottom:5rem;
+.mb-5rm {
+    margin-bottom: 5rem;
 }
-.mb-2rm{
-    margin-bottom:2rem;
+.mb-2rm {
+    margin-bottom: 2rem;
 }
 
+.carousel-container * {
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+}
 
+#toggleContainer label {
+    text-align: center;
+    width: 70px;
+}
 
+#container {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
 
- /* @media screen and (max-width: 250px) {
+#toggleContainer {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95vw;
+    position: absolute;
+}
+
+#tilesContainer {
+    min-height: 90vh;
+    width: 100vw;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.tileItem {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 5px;
+
+    transition: all 0.5s ease;
+}
+
+.tileItem:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+#galleryContainer {
+    /* height: 500px;
+    width: 800px; */
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#toggle {
+    height: 10vh;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#tilesView {
+    min-height: 100vh;
+    width: 100vw;
+    background: rgb(246, 210, 106);
+    background: linear-gradient(
+        111deg,
+        rgba(246, 210, 106, 1) 0%,
+        rgba(255, 159, 0, 1) 52%,
+        rgba(251, 197, 100, 1) 100%
+    );
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#galleryView {
+    /* height: 100vh;
+    width: 100vw;
+    background: rgb(246, 210, 106);
+    background: linear-gradient(
+        111deg,
+        rgba(246, 210, 106, 1) 0%,
+        rgba(255, 159, 0, 1) 52%,
+        rgba(251, 197, 100, 1) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#outer3 {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 3px;
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+
+#slider3 {
+    height: 36px;
+    width: 46px;
+    background-color: orange;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+#slider3.active {
+    -webkit-transform: translatex(50px);
+    -ms-transform: translatex(50px);
+    -o-transform: translatex(50px);
+    transform: translatex(50px);
+    transition: all 0.5s;
+    background-color: orange;
+}
+
+#outer3.outerActive {
+    background-color: white;
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+
+#mainView {
+    height: 450px;
+    width: 450px;
+    border-radius: 5px;
+    background-color: #eb9100;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    transition: all 1s;
+}
+
+#mainView:hover {
+    /* transform: scale(1.2);
+    transition: all 1s; */
+}
+
+#leftView {
+    height: 400px;
+    width: 150px;
+    opacity: 0.5;
+    border-radius: 5px;
+    transform: skewy(5deg);
+    transform-origin: top right;
+    background-color: #eb9100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+#leftView:hover {
+    opacity: 1;
+    transition: all 1s;
+}
+
+#rightView {
+    height: 400px;
+    width: 150px;
+    opacity: 0.5;
+    border-radius: 5px;
+    transform: skewy(-5deg);
+    transform-origin: top left;
+    background-color: #eb9100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+#rightView:hover {
+    opacity: 1;
+    transition: all 1s;
+}
+
+.navBtns {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    opacity: 0.8;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.navBtns:hover {
+    opacity: 1;
+    transition: all 1s;
+    background-color: #eb9100;
+}
+
+#navLeft {
+    left: 28%;
+}
+
+#navRight {
+    right: 28%;
+}
+
+#linkTag {
+    cursor: pointer;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+/* @media screen and (max-width: 250px) {
 
     .section1,
     .section2,
