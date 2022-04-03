@@ -9,13 +9,13 @@ body {
     background-image: url(../assets/bgsec2.png);
 }
 .font-blue {
-    color: blue;
+    color: #27CAE7;
 }
 .font-white {
     color: #ffff;
 }
 .footer-separator {
-    background-color: blue;
+    background-color: #27CAE7;
     height: 5px;
 }
 .bg-black {
@@ -43,8 +43,8 @@ body {
     border-radius: 50px;
 }
 .indicator-bar {
-    background-color: blue;
-    width: 20%;
+    background-color: #27CAE7;
+    /* width: 20%; */
     position: absolute;
     height: 28px;
     border-top-left-radius: 13px;
@@ -52,16 +52,16 @@ body {
 }
 .rounded-indicator {
     color: black;
-    border: solid 2px blue;
+    border: solid 2px #27CAE7;
     padding: 9px;
     z-index: 2;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     background-color: white;
 }
 .rounded-indicator-end {
     color: white;
     border: solid 2px white;
-    background-color: blue;
+    background-color: #27CAE7;
     padding: 5px;
     position: absolute;
     right: 0;
