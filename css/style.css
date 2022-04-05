@@ -39,6 +39,9 @@ body {
     font-size: 10px;
     color: white;
 }
+.counter-text{
+    font-size:120%;
+}
 .rad-5 {
     border-radius: 50px;
 }
@@ -395,8 +398,8 @@ body {
 }
 
 .carousel5 {
-    padding: 0;
-    max-width: 38%;
+    padding: 0 10vw;
+    max-width: 53%;
 }
 
 @media only screen and (max-width: 576px) {
@@ -510,7 +513,7 @@ body {
     .part3 .cloud3 {
         width: 15%;
         top: 40%;
-        left: 15%;
+        left: -3%;
     }
     .part3 .cloud4 {
         width: 15%;
