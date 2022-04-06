@@ -8,6 +8,15 @@ body {
     /* margin: 0px; */
     /* background-image: url(../assets/bgsec2.png); */
 }
+
+a.howtoapplysection {
+    border-radius: 50px;
+}
+
+.mobile-togglemenu .btn{
+    border-radius: 50px;    
+}    
+
 .font-blue {
     color: #23e0de;
 }
@@ -48,37 +57,45 @@ body {
 .content-4 {
     width: 40%;
 }
+/* PROGRESS BAR */
+.progress-text{
+    font-size: 2.5vh;
+}
 .indicator-bar {
     background-color: #23e0de;
     width: 25%;
     position: absolute;
-    height: 28px;
+    height: 6vh;
     border-top-left-radius: 13px;
     border-bottom-left-radius: 13px;
+}
+.indicator-text{
+    font-size: 2vh;
 }
 .rounded-indicator {
     color: black;
     border: solid 2px #ffca18;
-    /* border: solid 2px #23e0de; */
     padding: 9px;
     z-index: 2;
-    /* margin-left: 15%; */
     background-color: #ffca18;
 }
 .rounded-indicator-end {
     color: black;
     border: solid 2px #ffca18;
     background-color: #ffca18;
-    padding: 5px;
+    padding: 10px;
+    font-size: 12px;
     position: absolute;
     right: 0;
 }
+/*  */
 .bg-gray-white {
     background-color: #ffffff54;
     border-radius: 25px;
 }
 .mx-width-40 {
-    max-width: 40% !important;
+    width: 40% !important;
+    word-break: break-all;
 }
 .text-section {
     background-color: #f8ab2d;
@@ -357,12 +374,10 @@ body {
     padding-top: 0px;
 }
 
-.res-mobile {
-    width: 40%;
+.button-responsive{
+    width: 75%;
 }
-.res-mobile-bottom {
-    width: 35%;
-}
+
 
 .btn-width {
     width: 60%;
@@ -395,19 +410,34 @@ body {
 
 .carousel3 {
     padding: 0 10vw;
-    max-width: 53%;
+    width: 55%;
 }
 
 .carousel5 {
     padding: 0 10vw;
-    max-width: 53%;
+    max-width: 55%;
+}
+
+.carousel-control-prev{
+    left:7%;
+}
+
+.carousel-control-next{
+    right:7%;
 }
 
 .carousel-control-prev-icon{
-    background-color: #00000033;
+    /* margin-right:10px; */
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:20px solid white; 
 }
+
 .carousel-control-next-icon{
-    background-color: #00000033;
+    /* margin-left:10px; */
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid white;
 }
 
 @media only screen and (max-width: 576px) {
@@ -423,17 +453,46 @@ body {
     .res-max-width {
         max-width: 100%;
     }
-    .indicator-bar {
-        width: 35%;
+    /* PROGRESS BAR */
+    .progress-text{
+        font-size:2vh;
     }
+    .indicator-bar {
+        background-color: #23e0de;
+        width: 35%;
+        position: absolute;
+        height: 6vh;
+        border-top-left-radius: 13px;
+        border-bottom-left-radius: 13px;
+    }
+    .indicator-text{
+        font-size: 2vh;
+    }
+    .rounded-indicator {
+        color: black;
+        border: solid 2px #ffca18;
+        padding: 9px;
+        z-index: 2;
+        background-color: #ffca18;
+    }
+    .rounded-indicator-end {
+        color: black;
+        border: solid 2px #ffca18;
+        background-color: #ffca18;
+        padding: 8px;
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+    }
+    /*  */
     .fs-12 {
-        font-size: 50%;
+        font-size: 2vh;
     }
     .fs-14 {
-        font-size: 90%;
+        font-size: 3vh;
     }
     .carousel3 {
-        max-width: 95%;
+        width: 95%;
     }
     .carousel5 {
         padding: 0;
