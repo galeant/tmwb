@@ -11,7 +11,7 @@ body {
 
 a.howtoapplysection {
     border-radius: 50px;
-    border-color:none;
+    border-color:transparent !important;
     font-weight: 700 !important;
 }
 
