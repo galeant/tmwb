@@ -44,9 +44,18 @@
             <img class="position-absolute lantern2" src="assets/lantern.png"></img>
             <img class="position-absolute cloud2" src="assets/cloud.png"></img>
             <img class="position-absolute star2" src="assets/big-star.png"></img>
+
+            <!-- <img class="position-absolute confetti" src="assets/confetti.png"></img> -->
+            <!-- <img class="position-absolute confetti part1 d-block d-sm-none" src="assets/confetti.png"></img>
+            <img class="position-absolute confetti part2 d-block d-sm-none" src="assets/confetti.png"></img>
+            <img class="position-absolute confetti part3 d-block d-sm-none" src="assets/confetti.png"></img> -->
             
             <!-- MOBILE -->
-            <div class="d-block d-sm-none pt-5">
+            <div class="d-block d-sm-none pt-5" style="z-index:9999">
+                <img class="position-absolute confetti" src="assets/confetti-mobile.png"></img>
+                <img class="position-absolute confetti part1" src="assets/confetti-mobile.png"></img>
+                <img class="position-absolute confetti part2" src="assets/confetti-mobile.png"></img>
+                <img class="position-absolute confetti part3" src="assets/confetti-mobile.png"></img>
                 <div class="row">
                     <div class="col-md-12 col-sm-6 mb-3">
                         <img
@@ -123,83 +132,86 @@
             </div>
             <!-- DESKTOP -->
             <div class="d-none d-sm-block pt-5">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 text-end">
-                    <img
-                        src="assets/KOL-tania.png"
-                        class="img-fluid"
-                        alt="boxKOL"
-                        style="max-width: 75%"
-                    />
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-6">
-                            <img
-                                src="assets/LogoMarkPMK.png"
-                                class="img-fluid"
-                                style="max-width: 85%"
-                            />
-                        </div>
-                        <div class="col-10 offset-1 mt-4 mb-4 bg-counter pt-2">
-                            <p class="progress-text">JUMLAH ADD YOURS STORY YANG TELAH TERKUMPUL</p>
-                            <div
-                                class="d-flex flex-row rad-5 mb-3"
-                                style="
-                                    height: 33%;
-                                    background-color: white;
-                                    position: relative;
-                                "
-                            >
-                                <!-- UNTUK MENAIKAN INDIKATOR BAR ADA DI CSS DI CLASS INDICATOR BAR, UBAH WIDTH -->
-                                <div class="indicator-bar rounded-pill"></div>
-                                <div
-                                    class="rounded-pill d-flex align-items-center rounded-indicator"
-                                >
-                                    <b class="indicator-text">START</b>
-                                </div>
-                                <div
-                                    class="rounded-pill d-flex align-items-center rounded-indicator-end"
-                                >
-                                    <b class="indicator-text">100</b>
-                                </div>
+                <img class="position-absolute confetti" src="assets/confetti.png"></img>
+                
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-end">
+                        <img
+                            src="assets/KOL-tania.png"
+                            class="img-fluid"
+                            alt="boxKOL"
+                            style="max-width: 75%"
+                        />
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6">
+                                <img
+                                    src="assets/LogoMarkPMK.png"
+                                    class="img-fluid"
+                                    style="max-width: 85%"
+                                />
                             </div>
-                        </div>
-                        <div class="col-md-12 col-sm-6">
-                            <div class="d-flex justify-content-center">
-                                <div class="m-2 bg-gray-white mx-width-40">
-                                    <img
-                                        src="assets/icon-camera.png"
-                                        class="img-fluid img-camera"
-                                        alt="camera"
-                                        style="width: 25%"
-                                    />
+                            <div class="col-10 offset-1 mt-4 mb-4 bg-counter pt-2">
+                                <p class="progress-text">JUMLAH ADD YOURS STORY YANG TELAH TERKUMPUL</p>
+                                <div
+                                    class="d-flex flex-row rad-5 mb-3"
+                                    style="
+                                        height: 33%;
+                                        background-color: white;
+                                        position: relative;
+                                    "
+                                >
+                                    <!-- UNTUK MENAIKAN INDIKATOR BAR ADA DI CSS DI CLASS INDICATOR BAR, UBAH WIDTH -->
+                                    <div class="indicator-bar rounded-pill"></div>
                                     <div
-                                        class="card-body card-column pr-2 pl-2"
+                                        class="rounded-pill d-flex align-items-center rounded-indicator"
                                     >
-                                        <p class="card-text fs-12 mb-0 mt-2">
-                                            Post moment kemenangan kecilmu di Add Yours.
-                                        </p>
-                                        <p class="card-text fs-12 mt-0">
-                                            <b>"Menang Apa Hari Ini?"</b>
-                                        </p>
+                                        <b class="indicator-text">START</b>
+                                    </div>
+                                    <div
+                                        class="rounded-pill d-flex align-items-center rounded-indicator-end"
+                                    >
+                                        <b class="indicator-text">100</b>
                                     </div>
                                 </div>
-                                <div class="m-2 bg-gray-white mx-width-40">
-                                    <img
-                                        src="assets/icon-tmrwindo.png"
-                                        class="img-fluid img-tmrw"
-                                        alt="camera"
-                                        style="width: 70%"
-                                    />
-                                    <div class="card-body card-column">
-                                        <p class="card-text fs-12 mb-0 mt-2">
-                                            Tag <b>@TMRWIndonesia</b> dan
-                                            gunakan
-                                        </p>
-                                        <p class="card-text fs-12 mt-0">
-                                            <b>#MenangRamadanBareng</b>
-                                        </p>
+                            </div>
+                            <div class="col-md-12 col-sm-6">
+                                <div class="d-flex justify-content-center">
+                                    <div class="m-2 bg-gray-white mx-width-40">
+                                        <img
+                                            src="assets/icon-camera.png"
+                                            class="img-fluid img-camera"
+                                            alt="camera"
+                                            style="width: 25%"
+                                        />
+                                        <div
+                                            class="card-body card-column pr-2 pl-2"
+                                        >
+                                            <p class="card-text fs-12 mb-0 mt-2">
+                                                Post moment kemenangan kecilmu di Add Yours.
+                                            </p>
+                                            <p class="card-text fs-12 mt-0">
+                                                <b>"Menang Apa Hari Ini?"</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="m-2 bg-gray-white mx-width-40">
+                                        <img
+                                            src="assets/icon-tmrwindo.png"
+                                            class="img-fluid img-tmrw"
+                                            alt="camera"
+                                            style="width: 70%"
+                                        />
+                                        <div class="card-body card-column">
+                                            <p class="card-text fs-12 mb-0 mt-2">
+                                                Tag <b>@TMRWIndonesia</b> dan
+                                                gunakan
+                                            </p>
+                                            <p class="card-text fs-12 mt-0">
+                                                <b>#MenangRamadanBareng</b>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -207,7 +219,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
 
 
@@ -272,6 +283,36 @@
                     >
                         <div class="carousel-inner">
                             <div class="carousel-item active">
+                                <img
+                                    src="assets/submission011.png"
+                                    class="d-block w-100"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="assets/submission021.png"
+                                    class="d-block w-100"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="assets/submission031.png"
+                                    class="d-block w-100"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="assets/submission041.png"
+                                    class="d-block w-100"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="assets/submission051.png"
+                                    class="d-block w-100"
+                                />
+                            </div>
+                            <div class="carousel-item">
                                 <img
                                     src="assets/submission01.png"
                                     class="d-block w-100"
