@@ -1,12 +1,14 @@
 @font-face {
     font-family: ProximaNova;
-    src: url(../assets/ProximaNovaFont.otf);
+    src: url(/content/dam/uobtmrw/images/indonesia/ramadan2022/ProximaNovaFont.otf);
 }
 
 body {
     font-family: ProximaNova;
-    /* margin: 0px; */
-    /* background-image: url(../assets/bgsec2.png); */
+}
+
+.img-pointer{
+    cursor: pointer;
 }
 
 a.howtoapplysection {
@@ -65,7 +67,7 @@ a.howtoapplysection {
 }
 .indicator-bar {
     background-color: #23e0de;
-    width: 100%;
+    width: 35%;
     position: absolute;
     height: 100%;
     border-top-left-radius: 13px;
@@ -363,7 +365,7 @@ a.howtoapplysection {
 }
 
 .section2 {
-    background-image: url(../assets/bg1b.png);
+    background-image: url(/content/dam/uobtmrw/images/indonesia/ramadan2022/bg1b.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -436,11 +438,11 @@ a.howtoapplysection {
 /*  */
 
 .carousel-control-prev-icon{
-    background-image: url(../assets/arrow-kiri.png);
+    background-image: url(/content/dam/uobtmrw/images/indonesia/ramadan2022/arrow-kiri.png);
 }
 
 .carousel-control-next-icon{
-    background-image: url(../assets/arrow-kanan.png);
+    background-image: url(/content/dam/uobtmrw/images/indonesia/ramadan2022/arrow-kanan.png);
 }
 
 @media only screen and (max-width: 576px) {
@@ -463,7 +465,7 @@ a.howtoapplysection {
     /* MOBILE */
     .indicator-bar {
         background-color: #23e0de;
-        width: 100%;
+        width: 35%;
         position: absolute;
         height: 100%;
         border-top-left-radius: 13px;
@@ -772,24 +774,11 @@ a.howtoapplysection {
         right: 2%;
         top: 20%;
     }
+    .modal-padding{
+        padding: 1.5rem;
+    }
 }
 
 .w-100 {
     width: 100%;
 }
-
-
-/* @media screen and (max-width: 250px) {
-
-    .section1,
-    .section2,
-    .section3,
-    .section4,
-    .text1,
-    .text2,
-    .text3,
-    img {
-        width: 100%;
-        height: auto;
-    }
-}  */
