@@ -445,6 +445,10 @@ a.howtoapplysection {
     background-image: url(/content/dam/uobtmrw/images/indonesia/ramadan2022/arrow-kanan.png);
 }
 
+.modal-width{
+    max-width: 60% !important;
+}
+
 @media only screen and (max-width: 576px) {
     .res-mobile {
         width: 60%;
@@ -775,10 +779,13 @@ a.howtoapplysection {
         top: 20%;
     }
     .modal-padding{
-        padding: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
+    .modal-width{
+        max-width: 100% !important;
+    }    
 }
-
 .w-100 {
     width: 100%;
 }
